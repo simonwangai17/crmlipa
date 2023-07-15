@@ -1,0 +1,36 @@
+<html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Registration</title>
+        <!--link to css-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-builder">
+                    <img src="images/M-PESA.jpeg" alt="image">
+                </div>
+                <form action="php/connect.php" method="post">
+                    <h3>Customer Registration</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="FirstName" class="form-control" name="firstname"  />
+                        <input type="text" placeholder="LastName" class="form-control" name="lastname"  />
+                    </div>
+                    <div class="form-wrapper">
+                        <input type="number" placeholder="phone number" class="form-control" name="number" />
+                    </div>
+                    <div class="form-wrapper"> 
+                        <input type="text" placeholder="emailaddress" class="form-control" name="email" />
+                    </div>
+                    
+                    <div class="form-wrapper">
+                        <input type="password" placeholder="password" class="form-control" name="password" />
+                    </div>
+                    
+                    <button>Register Account</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
